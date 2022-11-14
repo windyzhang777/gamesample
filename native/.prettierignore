@@ -1,0 +1,7 @@
+node_modules
+**/node_modules
+ios
+android
+__tests__
+.prettierrc.js
+.eslintrc.js

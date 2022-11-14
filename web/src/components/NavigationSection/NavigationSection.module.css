@@ -1,0 +1,16 @@
+.navigationSection li:not(:last-child):after {
+  content: '\A';
+  display: block;
+  line-height: 4px;
+  margin-top: 10px;
+  background-color: #4a5696;
+  height: 1px;
+  position: relative;
+  top: 5px;
+  white-space: pre; /* or pre-wrap */
+}
+
+.NavigationItemUnderLine {
+  background-color: #4a5696;
+  height: 1;
+}

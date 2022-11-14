@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# misc
+.DS_Store
+.idea
+.vscode
+
+yarn-error.log
+
+# Node
+node_modules
+
+# Lint
+.eslintcache
+
+coverage
+web/coverage
+native/coverage
+shared/coverage
+
+build
+web/build
+
+
+# Local environment files
+# https://create-react-app.dev/docs/adding-custom-environment-variables/#what-other-env-files-can-be-used
+.env.development.local
+.env.qa.local
+.env.staging.local
+.env.production.local
+.env.local

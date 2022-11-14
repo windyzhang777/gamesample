@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component renders component with a display name 1`] = `
+<View
+  style={
+    Object {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <NavigationSystem
+    logout="logout function generated from shared"
+    navigationMenu="navigation menu from shared"
+    topBarTitle="TopBar Title"
+    useState={[Function]}
+  />
+</View>
+`;
+
+exports[`Home Component renders component without a display name 1`] = `<SetDisplayName />`;
+
+exports[`Home Component renders wrapper 1`] = `
+<Home
+  renderComponent={[Function]}
+  useSelector={[Function]}
+/>
+`;

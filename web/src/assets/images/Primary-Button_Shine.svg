@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="5px" viewBox="0 0 24 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Primary-Button_Shine</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Primary-Button_Shine" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.442940848">
+        <g id="Group" fill="#FFFFFF">
+            <path d="M2.4,-1.77635684e-15 L13.6,-1.77635684e-15 C14.9254834,-8.42578439e-16 16,1.0745166 16,2.4 C16,3.7254834 14.9254834,4.8 13.6,4.8 L2.4,4.8 C1.0745166,4.8 6.0641411e-16,3.7254834 0,2.4 C-1.623249e-16,1.0745166 1.0745166,-1.53286949e-15 2.4,-1.77635684e-15 Z" id="Rectangle"></path>
+            <circle id="Oval" cx="21.6" cy="2.4" r="2.4"></circle>
+        </g>
+    </g>
+</svg>

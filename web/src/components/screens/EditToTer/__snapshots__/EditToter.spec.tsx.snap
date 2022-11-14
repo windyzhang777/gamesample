@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component renders component with a display name 1`] = `
+<div
+  className="EditToTer"
+>
+  <button
+    onClick="function generated from to be called on back"
+  >
+    &lt;
+  </button>
+  <div>
+    Trick or Treater Name
+  </div>
+</div>
+`;
+
+exports[`Home Component renders wrapper 1`] = `
+<EditToTer
+  renderComponent={[Function]}
+  useSelector={[Function]}
+/>
+`;

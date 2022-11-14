@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Selected-Option-Checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Selected-Option-Checkmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Selected-check" transform="translate(2.000000, 2.000000)">
+            <rect id="bg" stroke-opacity="0.3" stroke="#000C2E" stroke-width="2" fill="#ADEDF9" x="-1" y="-1" width="25" height="25"></rect>
+            <path d="M7.66567503,11.7667399 C7.25353708,11.3990978 6.62140041,11.4351687 6.25375824,11.8473066 C5.88611608,12.2594446 5.92218703,12.8915813 6.33432497,13.2592234 L9.47635695,16.0620312 C9.85565113,16.4003756 10.4284128,16.4003756 10.807707,16.0620312 L17.8878972,9.74624176 C18.3000352,9.37859959 18.3361061,8.74646292 17.968464,8.33432497 C17.6008218,7.92218703 16.9686851,7.88611608 16.5565472,8.25375824 L10.142032,13.9757412 L7.66567503,11.7667399 Z" id="Path-2" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

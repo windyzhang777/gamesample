@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageTrickOrTreaters/> renders component with a display name 1`] = `
+<div
+  className="ManageTrickOrTreaters"
+>
+  <ToTerList
+    toterList="List of Toters from Redux"
+  />
+  <AddToTer
+    useDispatch={[Function]}
+    useState={[Function]}
+  />
+</div>
+`;
+
+exports[`<ManageTrickOrTreaters/> renders wrapper 1`] = `
+<ManageTrickOrTreaters
+  renderComponent={[Function]}
+  useSelector={[Function]}
+/>
+`;

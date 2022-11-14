@@ -1,0 +1,11 @@
+.sudokuInputWeb {
+  color: black;
+  font-size: 24px;
+  border-color: grey;
+  border-width: 1px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}

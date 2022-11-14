@@ -1,0 +1,17 @@
+.ToTerList {
+  background-color: #5c446f;
+  padding: 18px;
+  height: 260px;
+  overflow: auto;
+}
+
+.ToTerList > :not(:last-child):after {
+  content: '\A';
+  display: block;
+  margin-top: -4px;
+  background-color: #ccc;
+  height: 1px;
+  position: relative;
+  top: 5px;
+  white-space: pre; /* or pre-wrap */
+}

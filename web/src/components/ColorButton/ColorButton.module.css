@@ -1,0 +1,12 @@
+.Active {
+  border: 2px solid #ffffff !important;
+}
+
+.ColorButton {
+  width: 40px;
+  height: 40px;
+  border: 0px;
+  padding: 1rem;
+  margin: 1rem 1em;
+  border-radius: 5rem;
+}

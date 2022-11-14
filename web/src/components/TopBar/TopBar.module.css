@@ -1,0 +1,24 @@
+.TopBar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+  box-shadow: 0 2px 4px -4px #000;
+  box-sizing: border-box;
+}
+
+.TopBar a {
+  text-decoration: none;
+}
+
+.TopBar .Title {
+  text-transform: uppercase;
+  font-weight: bold;
+}

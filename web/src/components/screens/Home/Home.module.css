@@ -1,0 +1,10 @@
+.Neighborhood {
+  width: 80%;
+  margin: 60px auto 0;
+  background-color: #faf4e0;
+  height: calc(100vh - 60px);
+  padding-top: 50vh;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 90;
+}

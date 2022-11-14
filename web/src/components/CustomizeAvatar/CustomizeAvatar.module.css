@@ -1,0 +1,36 @@
+.AvatarWrapper {
+  position: relative;
+  width: 200px;
+  height: 330px;
+  transform: rotateY(0deg);
+  background-color: #fff;
+  margin: auto;
+}
+
+.BaseMonster {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ColorMask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 330px;
+  mix-blend-mode: normal;
+}
+
+.MonsterDetails {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: normal;
+  mask-size: 200px, 330px;
+  object-fit: contain;
+}

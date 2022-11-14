@@ -1,0 +1,46 @@
+.DoorElement {
+  position: absolute;
+  width: 200px;
+  height: 330px;
+  transform: rotateY(0deg);
+  transform-origin: left bottom;
+  transition: all linear 1s;
+  margin: auto;
+}
+
+.DoorElement:hover {
+  transform: rotateY(60deg);
+}
+
+.BaseDoor {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+
+.ColorMask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 200px;
+  height: 330px;
+  /* mask-size: 200px, 330px;
+  object-fit: contain; */
+}
+
+.DoorDecoration {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 12;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: normal;
+  mask-size: 200px, 330px;
+  object-fit: contain;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="191px" height="78px" viewBox="0 0 191 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Trick-Button-BG</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Trick-Button-BG" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BG">
+            <path d="M152,0 C173.539105,0 191,17.4608948 191,39 C191,60.5391052 173.539105,78 152,78 L39,78 C17.4608948,78 0,60.5391052 0,39 C0,17.4608948 17.4608948,0 39,0 L152,0 Z" id="Trick-button-border" fill-opacity="0.5" fill="#000C2E" fill-rule="nonzero"></path>
+            <path d="M39,7 L152,7 C169.673112,7 184,21.326888 184,39 C184,56.673112 169.673112,71 152,71 L39,71 C21.326888,71 7,56.673112 7,39 C7,21.326888 21.326888,7 39,7 Z" id="Trick-button-body" fill="#B1CC4E"></path>
+            <path d="M184,38.9993164 C184,56.6724284 169.673112,70.9993164 152,70.9993164 L39,70.9993164 C21.326888,70.9993164 7,56.6724284 7,38.9993164 C7,38.1013035 7.03699056,37.2119302 7.10953111,36.3325808 C8.45101037,52.5937744 21.9509074,65.4074722 38.49766,65.66212 L39,65.665983 L152,65.665983 C168.775127,65.665983 182.535439,52.7580283 183.890476,36.3325808 C183.963009,37.2119302 184,38.1013035 184,38.9993164 Z" id="Trick-button-bottom" fill="#93B141"></path>
+        </g>
+    </g>
+</svg>

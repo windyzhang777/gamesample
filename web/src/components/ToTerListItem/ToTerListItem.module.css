@@ -1,0 +1,22 @@
+.ToTerListItem {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #5c446f;
+  color: #fff;
+  font-size: 18;
+  font-weight: bold;
+  box-sizing: border-box;
+  cursor: pointer;
+  list-style: none;
+}
+
+.ToTerListItem a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}

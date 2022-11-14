@@ -1,0 +1,13 @@
+.AccountInfoSection {
+  display: flex;
+  align-items: center;
+}
+
+.ProfileImage {
+  font-size: inherit;
+  margin-bottom: 20px;
+}
+
+.Username {
+  font-size: inherit;
+}

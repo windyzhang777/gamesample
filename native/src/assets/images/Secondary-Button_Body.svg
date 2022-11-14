@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="66px" viewBox="0 0 400 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Secondary-Button_Body</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.1%" y="-25.0%" width="106.3%" height="150.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Secondary-Button_Body" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons-/-Secondary-/-Default" transform="translate(9.000000, 9.000000)">
+            <g id="PRIMARY-BUTTON" filter="url(#filter-1)">
+                <g id="BG">
+                    <path d="M24,0 L358,0 C371.254834,-2.4348735e-15 382,10.745166 382,24 C382,37.254834 371.254834,48 358,48 L24,48 C10.745166,48 -2.67984604e-14,37.254834 -2.84217094e-14,24 C-3.00449584e-14,10.745166 10.745166,2.4348735e-15 24,0 Z" id="Rectangle" fill="#C55524"></path>
+                    <path d="M24,0 L358,0 C371.254834,-2.4348735e-15 382,10.745166 382,24 C382,37.254834 371.254834,48 358,48 L24,48 C10.745166,48 -2.67984604e-14,37.254834 -2.84217094e-14,24 C-3.00449584e-14,10.745166 10.745166,2.4348735e-15 24,0 Z" id="Rectangle" fill="#FFFFFF"></path>
+                    <path d="M382,23.9994873 C382,37.2543213 371.254834,47.9994873 358,47.9994873 L24,47.9994873 C10.745166,47.9994873 -2.67984604e-14,37.2543213 -2.84217094e-14,23.9994873 C-2.85042106e-14,23.3258137 0.0277564231,22.6586231 0.082188046,21.9989965 C1.098163,34.3182797 11.4184979,43.9994873 24,43.9994873 L24,43.9994873 L358,43.9994873 C370.581502,43.9994873 380.901837,34.3182797 381.917895,21.9989745 C381.972244,22.6586231 382,23.3258137 382,23.9994873 Z" id="Rectangle-2" fill="#ADADAD"></path>
+                </g>
+                <g id="SHINE" transform="translate(336.200000, 6.000000)" fill="#FFFFFF" opacity="0.442940848">
+                    <path d="M2.4,0 L13.6,0 C14.9254834,9.33778401e-16 16,1.0745166 16,2.4 C16,3.7254834 14.9254834,4.8 13.6,4.8 L2.4,4.8 C1.0745166,4.8 6.0641411e-16,3.7254834 0,2.4 C-1.623249e-16,1.0745166 1.0745166,2.4348735e-16 2.4,0 Z" id="Rectangle"></path>
+                    <circle id="Oval" cx="21.6" cy="2.4" r="2.4"></circle>
+                </g>
+                <text id="NEXT" font-family="Tungsten-Bold, Tungsten" font-size="18" font-weight="bold" letter-spacing="1.5" fill="#4C4C4C">
+                    <tspan x="175.319" y="26">NEXT</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

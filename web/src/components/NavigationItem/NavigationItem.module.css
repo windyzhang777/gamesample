@@ -1,0 +1,12 @@
+.NavigationItem {
+  text-align: start;
+  height: 50px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.NavigationItem a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}

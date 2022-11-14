@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component renders component with a display name 1`] = `
+<NavigationSystem
+  navigationMenu="navigation menu from shared"
+  topBarTitle="westgate hills"
+  useState={[Function]}
+/>
+`;
+
+exports[`Home Component renders component without a display name 1`] = `
+<NavigationSystem
+  topBarTitle="westgate hills"
+  useState={[Function]}
+/>
+`;
+
+exports[`Home Component renders wrapper 1`] = `
+<Home
+  renderComponent={[Function]}
+  useSelector={[Function]}
+/>
+`;

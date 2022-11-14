@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddToter/> renders component 1`] = `
+<div
+  className="AddToTer"
+>
+  <label>
+    Trick or Treater Name
+    <input
+      autoFocus={true}
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value="gmom-35"
+    />
+  </label>
+  <button
+    onClick={[Function]}
+  >
+    Add a new ToTer
+  </button>
+</div>
+`;
+
+exports[`<AddToter/> renders wrapper 1`] = `
+<AddToter
+  renderComponent={[Function]}
+/>
+`;

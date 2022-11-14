@@ -1,0 +1,39 @@
+.trick-or-treat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.trick-or-treat-background {
+  background-image: url('/public/assets/images/CustomizationBrick.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.trick-or-treat-door {
+  width: 300px;
+}
+.trick-or-treat-actions {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  position: absolute;
+}
+.trick-or-treat-trick-button img {
+  width: 180px;
+}
+.trick-or-treat-trick-button .image-button-text {
+  color: #333;
+  font-weight: 700;
+  font-size: 1.5rem;
+  bottom: 1.5rem;
+}
+.trick-or-treat-treat-button img {
+  width: 180px;
+}
+.trick-or-treat-treat-button .image-button-text {
+  font-weight: 700;
+  font-size: 1.5rem;
+  bottom: 1.5rem;
+}

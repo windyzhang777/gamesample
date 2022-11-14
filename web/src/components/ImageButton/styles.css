@@ -1,0 +1,10 @@
+.image-button {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.image-button-text {
+  position: absolute;
+}

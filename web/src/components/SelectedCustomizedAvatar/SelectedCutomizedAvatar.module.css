@@ -1,0 +1,17 @@
+.BaseAvatar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+
+.ColorMask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 330px;
+  mix-blend-mode: normal;
+}

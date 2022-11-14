@@ -1,0 +1,20 @@
+.Button {
+  border: none;
+  background-color: inherit;
+  font-size: 30px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.Button img {
+  height: 20px;
+}
+
+.Light {
+  color: #fff;
+}
+.Dard {
+  color: #623c59;
+}

@@ -1,0 +1,12 @@
+.EditYourAvatar {
+  background-color: #020d2c;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  color: #fff;
+}
+
+.EditYourAvatar .BaseAvatar {
+  width: 200px;
+  height: 330px;
+}

@@ -1,0 +1,19 @@
+.NavigationSystem {
+  position: relative;
+  width: calc(95vh - 2.98 / 5.94 * 95vh);
+  margin: 0 auto;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.NavigationSystem .Routes {
+  top: 60px;
+  width: 100%;
+  height: calc(95vh - 60px);
+  background-color: #000;
+  color: #fff;
+  z-index: 90;
+  overflow: hidden;
+  position: relative;
+  overflow-y: auto;
+}

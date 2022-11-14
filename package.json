@@ -1,0 +1,74 @@
+{
+  "private": true,
+  "workspaces": {
+    "nohoist": [
+      "**/react-native",
+      "**/react-redux",
+      "**/react-native-msal",
+      "**/react-native/**",
+      "**/react-native-fs",
+      "**/react-native-fs-storage",
+      "**/redux-persist-fs-storage",
+      "**/react-router-dom",
+      "**/react-router-native",
+      "**/react-native-svg",
+      "**/mapbox-gl",
+      "**/react-mapbox-gl",
+      "**/@react-native-mapbox-gl/maps",
+      "**/@react-native-community/geolocation",
+      "**/@react-native-community/masked-view",
+      "**/react-native-image-filter-kit",
+      "**/react-native-linear-gradient",
+      "**/react-native-sound"
+    ],
+    "packages": [
+      "web",
+      "native",
+      "shared"
+    ]
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules shared/node_modules native/node_modules web/node_modules ",
+    "postinstall": "cd native/ios && pod install && cd ../..",
+    "dev:native": "yarn workspace native run start --reset-cache",
+    "dev:ios": "yarn workspace native run ios",
+    "dev:android": "yarn workspace native run android",
+    "dev:web": "yarn workspace web run start",
+    "storybook:web": "yarn workspace web run storybook",
+    "storybook:native": "yarn workspace native run storybook",
+    "test:shared": "yarn workspace shared run test",
+    "test:native": "yarn workspace native run test",
+    "test:web": "yarn workspace web run test",
+    "test:web:ci": "yarn workspace web run test:ci",
+    "test:all": "yarn test:shared && yarn test:web:ci && yarn test:native",
+    "lint:shared": "yarn workspace shared run lint",
+    "lint:native": "yarn workspace native run lint",
+    "lint:web": "yarn workspace web run lint",
+    "lint:all": "yarn workspaces run lint",
+    "prettier:shared": "yarn workspace shared run prettier",
+    "prettier:native": "yarn workspace native run prettier",
+    "prettier:web": "yarn workspace web run prettier",
+    "prettier:all": "yarn workspaces run prettier",
+    "build:web": "yarn workspace web run build",
+    "build:all": "yarn build:web",
+    "build": "yarn build:all"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn test:all"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,jsx}": "yarn workspaces run lint",
+    "*.{js,ts,tsx,jsx,css,md}": "yarn prettier "
+  }
+}
