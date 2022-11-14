@@ -1,4 +1,4 @@
-# Practice on React Native Web
+Practice on React, Typescript, React Native Web, storybook
 
 This project utilizes [React Native Web](https://www.npmjs.com/package/react-native-web) to share as much UI code as possible
 
