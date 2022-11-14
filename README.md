@@ -1,8 +1,8 @@
-# Project Werewolf
+# Project
 
 This project utilizes [React Native Web](https://www.npmjs.com/package/react-native-web) to share as much UI code as possible
 
-Front end is React & React Native with Redux & Sagas. Back end is PlayFab & Azure.
+Front end is React & React Native with Redux & Sagas.
 
 # Project Structure
 
